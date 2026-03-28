@@ -1,7 +1,7 @@
 variable "aws_region" {
   description = "AWS region to deploy into"
   type        = string
-  default     = "us-west-2"
+  default     = "us-east-1"
 }
 
 variable "project_name" {
@@ -31,5 +31,5 @@ variable "private_subnet_cidr" {
 variable "az" {
   description = "Availability zone to use"
   type        = string
-  default     = "us-west-2a"
+  default     = "us-east-1a"
 }
